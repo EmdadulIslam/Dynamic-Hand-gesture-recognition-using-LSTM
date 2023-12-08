@@ -9,7 +9,7 @@ import numpy as np
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
 import os
-
+# here is some changes
 # Define the LSTM network architecture
 class LSTMClassifier(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes, num_layers):
